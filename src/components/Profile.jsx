@@ -1,14 +1,15 @@
-import Statcard from "./Statcard";
+// import Statcard from "./Statcard";
 import Bio from "./Bio";
 
-function Profile({ value, label, rate }) {
+function Profile() {
+// function Profile({ value, label, rate }) {
   return (
     <div>
       <Bio name="Cassius Cenas" username="@CassiusCenas" />
 
       <div className="mt-6 flex gap-6">
-        <Statcard value={value} label={label} />
-        <Statcard value={rate} label="PHP per hour" />
+        {/* <Statcard value={value} label={label} />
+        <Statcard value={rate} label="PHP per hour" /> */}
       </div>
     </div>
   );
