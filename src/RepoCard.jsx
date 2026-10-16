@@ -2,7 +2,6 @@ import { useState } from "react";
 
 function RepoCard({ name, description, language, commits }) {
   const [stars, setStars] = useState(0);
-
   return (
     <div className="rounded-xl border-2 border-[#222222] p-8">
       <div className="flex items-center justify-between">
